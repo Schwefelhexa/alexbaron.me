@@ -1,14 +1,35 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Welcome to Astro.">
-	<main>
-		<h1 class="font-bold text-8xl text-fancy">Welcome to Astro</h1>
-		<p>
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
-	</main>
+  <main class="flex flex-col justify-between items-center h-full gap-8">
+    <div></div>
+    <div class="flex flex-col text-center items-center">
+      <h1 class="font-bold text-6xl lg:text-8xl text-fancy mb-8 lg:mb-12">
+        Alexander Baron
+      </h1>
+      <p class="max-w-prose font-medium px-8">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ex tortor,
+        semper vel lobortis eget, bibendum volutpat turpis. Interdum et
+        malesuada fames ac ante ipsum primis in faucibus. Pellentesque mi massa,
+        viverra ac quam quis, cursus fermentum libero. Duis ac magna auctor,
+        volutpat libero vitae, pulvinar nibh. Proin sodales ullamcorper nulla
+        hendrerit euismod. Sed nec turpis in ligula dignissim ornare.
+        Pellentesque sagittis sodales velit dapibus feugiat. Fusce pharetra
+        sodales justo. Nulla lacinia ultrices ex, nec ornare libero cursus eget.
+        Suspendisse rhoncus eget nibh malesuada tempor. Mauris varius ornare
+        augue eget mattis. Pellentesque a commodo neque.
+      </p>
+    </div>
+    <div class="pb-8">
+      <a
+        href="https://github.com/Schwefelhexa"
+        class="text-slate-500 flex font-medium gap-1"
+      >
+        <img src="/github.svg" alt="Github" />
+        <span>@Schwefelhexa</span>
+      </a>
+    </div>
+  </main>
 </Layout>
-
