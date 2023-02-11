@@ -1,0 +1,5 @@
+.text-fancy {
+  @apply bg-gradient-to-br from-fuchsia-500 to-pink-600 bg-clip-text;
+  -webkit-text-fill-color: transparent;
+}
+
